@@ -1,0 +1,255 @@
+  .first {
+    height: 660px;
+    width: 500px;
+    background-color: #F3E8FF;
+    border: 3px solid cyan;
+    border-radius: 5%;
+    margin-left: 450px;
+    margin-top: 50px;
+    padding: 0 50px;
+    box-shadow: 0 0 1rem cyan;
+    transition: .5s ease;
+
+  }
+
+  .first:hover {
+    box-shadow: 0 0 2rem cyan;
+  }
+
+  body {
+    padding: 0;
+    margin: 0;
+
+    background-image: url('https://images.pexels.com/photos/2890467/pexels-photo-2890467.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2');
+
+    size:800px;
+      height: 700px;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+
+    /* background-color: white; */
+  }
+
+  h3 {
+    font-weight: bold;
+    text-align: center;
+    color: #1f242d;
+    font-family: 'Merriweather', serif;
+  }
+
+  h1 {
+
+
+    font-weight: bold;
+    text-align: center;
+    color: #1f242d;
+    font-family: 'Kanit', sans-serif;
+  }
+
+  h2 {
+    font-weight: bold;
+    text-align: center;
+    color: #1f242d;
+    font-family: 'Kanit', sans-serif;
+  }
+
+  .yo {
+
+    padding: 10px;
+    margin-left: 110px;
+    width: 50%;
+    border: 3px solid #1f242d;
+    border-radius: 30px;
+    color: grey;
+
+  }
+
+  .gojo {
+
+    margin-top: 20px;
+    padding: 10px;
+    margin-left: 110px;
+    width: 50%;
+    border: 3px solid #1f242d;
+    border-radius: 30px;
+    display: block;
+    color: grey;
+
+  }
+
+  #pwd1 {
+    background-color: transparent;
+    outline: none;
+    border: 0;
+  }
+
+  #text {
+    display: inline-block;
+    margin: 20px 0;
+    padding-left: 50px;
+    margin-left: 50px;
+    color: #1f242d;
+    font-weight: bold;
+
+  }
+
+  .pass2 {
+
+    display: inline;
+    /* margin-right: 30px; */
+    padding-left: 50px;
+    color: #1f242d;
+    font-weight: bold;
+  }
+  .pass2:hover{
+    color: grey;
+  }
+
+  #email {
+    background-color: transparent;
+    outline: none;
+    border: 0;
+  }
+
+  .btn {
+    background: transparent;
+    border-radius: 7px;
+    font-family: Arial;
+    font-weight: bold;
+    font-size: 20px;
+    color: #1f242d;
+    padding: 10px 20px 10px 20px;
+    text-decoration: none;
+    margin-left: 200px;
+    box-shadow: 0 0 1rem #1f242d;
+    transition: .5s ease;
+  }
+
+  .btn:hover {
+    background-color: cyan;
+    text-decoration: none;
+    box-shadow: 0 0 1rem aqua;
+  }
+
+  p {
+    color: #1f242d;
+    text-align: center;
+    font-weight: bold;
+    font-family: 'Kanit', sans-serif;
+  }
+
+  .btn1 {
+    font-weight: bold;
+    border-radius: 7px;
+    font-family: Arial;
+    color: #1f242d;
+    font-size: 20px;
+    background: transparent;
+    padding: 10px 18px 9px 18px;
+    text-decoration: none;
+    box-shadow: 0 0 1rem #1f242d;
+    transition: .5s ease;
+  }
+
+  .btn1:hover {
+    background: transparent;
+    background-color: #00308F;
+    text-decoration: none;
+      box-shadow: 0 0 1rem #00308F;
+  }
+
+  .btn2 {
+    font-weight: bold;
+    border-radius: 7px;
+    font-family: Arial;
+    color: #1f242d;
+    font-size: 20px;
+    background: transparent;
+    padding: 10px 18px 9px 19px;
+    text-decoration: none;
+    margin-left: 30px;
+    box-shadow: 0 0 1rem #1f242d;
+    transition: .5s ease;
+  }
+
+  .btn2:hover {
+    background: transparent;
+    background-color: #1DA1F2;
+    text-decoration: none;
+    box-shadow: 0 0 2rem #1DA1F2;
+  }
+
+  .btn3 {
+    font-weight: bold;
+    border-radius: 7px;
+    font-family: Arial;
+    color: #1f242d;
+    font-size: 20px;
+    background: transparent;
+    padding: 10px 18px 9px 19px;
+    text-decoration: none;
+    margin-left: 20px;
+    transition: .5s ease;
+    box-shadow: 0 0 1rem #1f242d;
+  }
+
+  .btn3:hover {
+    background-color: #DB4437;
+    text-decoration: none;
+      box-shadow: 0 0 1rem #DB4437;
+  }
+
+  hr {
+    margin-top: 30px;
+    border-color: #1f242d;
+    border-style: dotted none none;
+    border-width: 5px;
+    width: 15%;
+  }
+
+  .spa {
+
+    color: #1f242d;
+  }
+
+  .btn4 {
+
+    border-radius: 7px;
+    font-family: 'Bitter', serif;
+    font-weight: bold;
+    color: #1f242d;
+    font-size: 20px;
+    background: transparent;
+    padding: 6px 18px 9px 19px;
+    text-decoration: none;
+    margin-left: 190px;
+    /* transform: translateY(100%); */
+    box-shadow: 0 0 1rem #1f242d;
+    transition: .5s ease;
+  }
+
+  .btn4:hover {
+    background: transparent;
+    background-color: cyan;
+    text-decoration: none;
+      box-shadow: 0 0 1rem cyan;
+    /* transform: translateY(0); */
+  }
+
+  ::placeholder {
+    color: #1f242d;
+  }
+
+  .fa-solid {
+    color: #1f242d;
+  }
+
+  .login {
+    font-size: 10px;
+    font-weight: bold;
+  }
+
+  .new {
+    text-decoration: none;
+  }

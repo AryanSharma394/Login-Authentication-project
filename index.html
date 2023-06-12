@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+
+  <meta charset="utf-8">
+  <title>Project</title>
+<link rel="stylesheet" href="favicon.ico">
+  <link rel="stylesheet" href="css\project.css">
+  <script src="https://kit.fontawesome.com/2a9cc83bd0.js" crossorigin="anonymous"></script>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Kanit&display=swap" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@1,700&display=swap" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Bitter&display=swap" rel="stylesheet">
+
+
+</head>
+
+<body>
+  <div class="first">
+    <h1>Login Here</h1>
+    <div class="yo">
+
+
+      <i class="fa-solid fa-user"></i>
+      <input id="email" placeholder="Username" type="text" name="" value="">
+    </div>
+    <div class="gojo">
+      <i class="fa-solid fa-key"></i>
+      <input id="pwd1" placeholder="&#9679;&#9679;&#9679;&#9679;&#9679;" type="password" name="" value="">
+    </div>
+
+
+    <p id="text"><input class="new1" type="checkbox" name="" value="">Remember me</p>
+    <a class="new" href="reset.html">
+      <p class="pass2">Forgot password?</p><br>
+    </a>
+    <button id="submit" class="btn" type="button" name="button">Log In</button>
+    <h3>OR</h3>
+    <h2 class="heading">Login</h2>
+    <p>with your social media account</p>
+    <div class="hey">
+      <a href="https://www.facebook.com"><button class="btn1" type="button" name="button"><i class="fa-brands fa-facebook"></i> Facebook</button></a>
+      <a href="https://twitter.com/i/flow/signup"><button class="btn2" type="button" name="button"><i class="fa-brands fa-twitter"></i> Twitter</button></a>
+      <a href="https://accounts.google.com/v3/signin/identifier?dsh=S436238257%3A1684820681363323&authuser=0&continue=https%3A%2F%2Fwww.google.com%2F&ec=GAlAmgQ&hl=en&flowName=GlifWebSignIn&flowEntry=AddSession"><button class="btn3" type="button" name="button"><i class="fa-brands fa-google"></i> Google</button></a>
+    </div>
+
+    <hr>
+    <p>Dont have an account ? <span class="spa">Register now</span></p>
+    <button class="btn4" type="button" name="button" onclick="window.location.href = 'register.html';">Register</button>
+  </div>
+  <script type="text/javascript">
+
+  //localStorage.clear()
+  var username = localStorage.getItem("username")
+  var password = localStorage.getItem("password")
+
+  let button = document.getElementById("submit");
+
+  var username1 = document.getElementById("email");
+  var password1 = document.getElementById("pwd1");
+
+  button.addEventListener("click", () => {
+    if (password1.value == password && username1.value == username) {
+        alert("Thank You !! you will be redirected to our website");
+        window.open('./Project.html');
+    }
+    else {
+        alert("WRONG USERNAME OR PASSWORD :( ");
+    }
+  })
+  </script>
+</body>
+
+</html>
